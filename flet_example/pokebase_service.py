@@ -1,6 +1,7 @@
 import pokebase
 from pokebase import cache
 
+
 cache.API_CACHE
 
 """

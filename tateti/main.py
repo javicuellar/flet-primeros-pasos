@@ -5,6 +5,8 @@ from button_custom import button_custom
 from tateti import Tateti
 
 
+
+
 def main(page: ft.Page):
     page.title = "Containers with background color"
     page.padding = 50
@@ -55,21 +57,13 @@ def main(page: ft.Page):
         actualizar_ui()
 
     c1 = button_custom(0, tateti, actualizar_ui, termino_el_juego_ui)
-
     c2 = button_custom(1, tateti, actualizar_ui, termino_el_juego_ui)
-
     c3 = button_custom(2, tateti, actualizar_ui, termino_el_juego_ui)
-
     c4 = button_custom(3, tateti, actualizar_ui, termino_el_juego_ui)
-
     c5 = button_custom(4, tateti, actualizar_ui, termino_el_juego_ui)
-
     c6 = button_custom(5, tateti, actualizar_ui, termino_el_juego_ui)
-
     c7 = button_custom(6, tateti, actualizar_ui, termino_el_juego_ui)
-
     c8 = button_custom(7, tateti, actualizar_ui, termino_el_juego_ui)
-
     c9 = button_custom(8, tateti, actualizar_ui, termino_el_juego_ui)
 
     button_reset = ft.ElevatedButton("Reset", on_click=reset)
@@ -109,5 +103,7 @@ def main(page: ft.Page):
     page.add(row3)
     page.add(button_reset)
     page.add(mensaje)
+
+
 
 ft.app(target=main)

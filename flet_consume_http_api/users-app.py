@@ -9,6 +9,8 @@ from views.edit_user_view import edit_user_view
 from widgets.create_user_button import create_user_button
 
 
+
+
 def main(page: ft.Page):
     page.title = "Usuarios CRUD"
 
@@ -69,6 +71,7 @@ def main(page: ft.Page):
     page.on_route_change = route_change
     page.on_view_pop = view_pop
     page.go(page.route)
+
 
 
 # ft.app(target=main)

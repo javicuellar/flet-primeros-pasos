@@ -3,6 +3,8 @@ import flet as ft
 from widgets.card_pokemon import get_pokemon_card
 from pokebase_service import obtener_pokemon
 
+
+
 def main(page: ft.Page):
     # add/update controls on Page
     pokemon = obtener_pokemon(1)
